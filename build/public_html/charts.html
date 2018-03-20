@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Layout</title>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<style>
+			.graphs {
+				width:100%;
+				
+			}
+			.bar-container {
+				display: inline-block;
+				width: calc((100% / 3) - 40px);
+				height: 100px;
+				margin: 20px;
+			}
+			.bar {
+				width:100%;
+			}
+			.bar-container svg {
+				width:100%;
+			}
+			@media (max-width:600px) {
+				.bar-container {
+					width: calc((100% / 3) - 20px);
+					height: 60px;
+					margin: 10px;
+				}
+			}
+		</style>
+	</head>
+	<body id="body" class="header-fixed">
+		<div class="graphs"><!--
+			--><div class="bar-container">
+				<span class="bar-storage">5,3,9,6,5,9,7,3,5,3,9,6,5,9,7,6,8,7,9,3,5,2,9,6,5,9,7,3,9,6</span>
+			</div><!--
+			--><div class="bar-container">
+				<span class="bar bar-cdn">5,3,9,6,5,9,7,3,5,2,9,6,5,9,7,3,9,6,5,3,9,6,5,9,7,6,8,7,9,3</span>
+			</div><!--
+			--><div class="bar-container">
+				<span class="bar bar-encoder">5,3,9,6,9,4,9,3,5,2,9,6,5,9,7,3,9,6,5,3,9,6,5,9,7,6,8,7,9,3</span>
+			</div><!--
+		--></div>
+		<script type="text/javascript" src="/includes/js/zepto.js"></script>
+		<script type="text/javascript" src="/includes/js/petis.js"></script>
+		<script>
+			
+			Zepto(function($){
+				var jQuery = $;
+				console.log('Ready to Zepto!');
+				var bar = document.getElementsByClassName('bar')[0];
+				
+				$.fn.peity.defaults.bar = {
+					delimiter: ",",
+					fill: ["#4d89f9"],
+					height: '100%',
+					max: null,
+					min: 0,
+					padding: 0.1,
+					width: 481
+				}
+				$('.bar-cdn').peity("bar",{
+					fill: ["#ff6600"]
+				});
+				$('.bar-encoder').peity("bar",{
+					fill: ["#666699"]
+				});
+				$('.bar-storage').peity("bar",{
+					fill: ["#669966"]
+				});
+				
+				$( window ).resize(function() {
+					$('.bar-cdn').change();
+					$('.bar-encoder').change();
+					$('.bar-storage').change();
+				});
+				
+			});
+			
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ----->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ----->
+		
+		<!----- SHOW PANEL ---->
+		<div class="full-width">
+		<section class="box-type">
+			<div class="registration page">
+				<h2>Registration</h2>
+
+				<form>
+				  <div class="form-group">
+				    <label for="firstname">First Name</label>
+				    <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" >
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Last Name</label>
+				    <input type="text" class="form-control" id="exampleInputPassword1">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Email</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Password</label>
+				    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputEmail1">Repeat Password</label>
+				    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+				  </div>
+
+				  <div class="form-check">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+				    <label class="form-check-label" for="exampleCheck1">I agree to the Terms & Privacy Policy</label>
+				  </div>
+
+				  <a onclick='link(event);' type="submit" href="/register-2.html" class="next btn">Next</a>
+				</form>
+
+
+			</div>
+		</section>
+		</div>		
+		
+		<!----- END SHOW PANEL ----->
+		
+		<!----- FOOTER ----->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+			(function() {
+				
+				// Initiate Episode List Slider
+
+				setTimeout(function() {
+					document.getElementById("site-loader").className = "hidden";
+				}, 500);	
+
+				
+				 
+			})();
+			
+			    
+		</script>
+	</body>
+</html>

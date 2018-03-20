@@ -1,0 +1,99 @@
+<div class="aux">
+	<div class="radioplayer"><div class="play"><button id="radio-play"><i class="fas fa-play-circle"></i></button></div>
+		<div class="radio-slider card-slider">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div id="song-cover" class="cover"><img src="https://rtm-image.glueapi.io/320x320/live_radio/rtm-ch018/klfm-title.jpg" alt="KL FM" /></div>
+					<div class="metadata">
+						<div id="radio-location" class="program truncate">Sydney</div>
+						<div id="radio-title" class="title truncate"><span class="text-capital">Today FM</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="song-cover" class="cover"><img src="https://rtm-image.glueapi.io/320x320/live_radio/rtm-ch018/klfm-title.jpg" alt="KL FM" /></div>
+					<div class="metadata">
+						<div id="radio-location" class="program truncate">Sydney</div>
+						<div id="radio-title" class="title truncate"><span class="text-capital">TripleM</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="song-cover" class="cover"><img src="https://rtm-image.glueapi.io/320x320/live_radio/rtm-ch018/klfm-title.jpg" alt="KL FM" /></div>
+					<div class="metadata">
+						<div id="radio-location" class="program truncate">National</div>
+						<div id="radio-title" class="title truncate"><span class="text-capital">Triple JJJ</span></div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="song-cover" class="cover"><img src="https://rtm-image.glueapi.io/320x320/live_radio/rtm-ch018/klfm-title.jpg" alt="KL FM" /></div>
+					<div class="metadata">
+						<div id="radio-location" class="program truncate">Sydney</div>
+						<div id="radio-title" class="title truncate"><span class="text-capital">Kiis FM</span></div>
+					</div>
+				</div>
+			</div>
+			<div class="controls">
+				<div id="radio-prev" class="prev"><i class="fal fa-chevron-up"></i></div>
+				<div id="radio-next" class="next"><i class="fal fa-chevron-down"></i></div>
+			</div>
+		</div>
+		<audio id="radio" src="" controls style="display: none;"></audio>
+	</div>
+	<div class="social" style="display: none;">
+		<div class="share">
+			<ul>
+				<li><a href="https://twitter.com/myklik_mobile"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href="https://www.facebook.com/myklik.mobile"><i class="fab fa-facebook-square"></i></a></li>
+				<li><a href="https://www.instagram.com/myklik_mobile"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCF4KdUqyxJ5Cb0NTGhZXt9g?sub_confirmation=1"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="container">
+		<div class="nav-buttons">
+			<div class="logo">
+				<a href="/" alt="Home"><img src="/includes/images/logo/logo.svg" alt="OVO" /></a>
+			</div>
+			<a class="nav-icon" onclick="openCloseNav();"><span id="nav-toggle-icon" class="fa fa-bars"></span></a>
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<a  onclick='link(event);' href="/latest.html" >Latest</a> 
+				</li>
+				<li>
+					<a onclick='link(event);' href="/channels.html" >Channels</a>
+				</li>
+				<li>
+					<a  onclick='link(event);' href="/radios.html" >Radio</a>
+				</li>
+				<li>
+					<a  onclick='link(event);' href="/categories.html" >Categories</a>
+				</li>
+				<li>
+					<a  onclick='link(event);' href="/events.html" >Upcoming Events</a>
+				</li>
+<!--
+				<li class="dropdown">
+					<a target="" href="/#" data-rounter>Live</a>
+					<button class=""><i class="fa fa-chevron-down"></i></button>
+					<ul>
+						<li class="dropdown active"></li>
+					</ul> 
+				</li>
+-->
+				<li><a id="search-toggle" title="Search"><i class="fa fa-search"></i></a></li>
+			</ul>
+		</nav>
+		<ul class="account">
+			<li>
+				<a href="/register-1.html?">
+					<div class="login">
+						Sign In
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

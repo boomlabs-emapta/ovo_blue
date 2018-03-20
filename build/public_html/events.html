@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ----->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ---->
+
+		<section class="container mediumBlue">
+			<div class="eventbox ">
+				<h2>Events</h2>
+				<ul class="event-list">
+					<li>
+						<time datetime="2014-07-20">
+							<span class="day">4</span>
+							<span class="month">Jul</span>
+							<span class="year">2014</span>
+							<span class="time">ALL DAY</span>
+						</time>
+						<img src="/includes/images/event.png">
+						<div class="info">
+							<h2 class="title">Water Polo</h2>
+							<ul class="desc">
+								<li>Syney, Australia</li>
+								<li>10:00 AM - 3:00 PM</li>
+							</ul>
+						</div>
+						<div class="reminder">
+							<a href="#"><i class="fas fa-bell"></i></a>
+						</div>
+					</li>
+					<li>
+						<time datetime="2014-07-20">
+							<span class="day">13</span>
+							<span class="month">Jul</span>
+							<span class="year">2014</span>
+							<span class="time">ALL DAY</span>
+						</time>
+						<img src="/includes/images/event-car.png">
+						<div class="info">
+							<h2 class="title">Thunder Sport</h2>
+							<ul class="desc">
+								<li>Syney, Australia</li>
+								<li>10:00 AM - 3:00 PM</li>
+							</ul>
+						</div>
+						<div class="reminder">
+							<a href="#"><i class="fas fa-bell"></i></a>
+						</div>
+					</li>
+					<li>
+						<time datetime="2014-07-20">
+							<span class="day">21</span>
+							<span class="month">Jul</span>
+							<span class="year">2014</span>
+							<span class="time">ALL DAY</span>
+						</time>
+						<img src="/includes/images/event.png">
+						<div class="info">
+							<h2 class="title">Water Polo</h2>
+							<ul class="desc">
+								<li>Syney, Australia</li>
+								<li>10:00 AM - 3:00 PM</li>
+							</ul>
+						</div>
+						<div class="reminder">
+							<a href="#"><i class="fas fa-bell"></i></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
+		
+		<!----- END SHOW PANEL ----->
+		
+		<!----- FOOTER ----->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+			
+			function link(event) {
+				  event.preventDefault();
+				  var href = event.currentTarget.getAttribute('href')
+				  window.location='' + href;
+				}
+			(function() {
+				
+				// Initiate Episode List Slider
+
+				setTimeout(function() {
+					document.getElementById("site-loader").className = "hidden";
+				}, 500);	
+
+				
+				 
+			})();
+			
+			    
+		</script>
+	</body>
+</html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ----->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ----->
+		
+		<!----- SHOW PANEL ---->
+		<section id="show" class="two-col-panel show-synopsis">
+			<div class="col2-panel sixteenByNine"><!--
+				--><div class="left-col">
+					<div class="cards sixteenByNine info-overlay">
+						<div class="card">
+							<a id="play-video">
+								<div class="img">
+									<img src="/includes/images/latest-1.png" alt="poster">
+									<div class="btn-overlay">
+										<i class="fas fa-play-circle"></i>
+									</div>
+									
+									<div class="label label-left">Movie</div>
+								</div>
+							</a>
+							<div class="player-container"></div>
+							
+							<div class="info">
+								<div class="channel"><img src="/includes/images/logo/primary/tv2.png" alt="TV2"></div>
+								<div class="tx">Gymnastics</div>
+								<div class="title">Video Title</div>
+								<div class="action">
+									<a id="play-video2">Watch Video <i class="fal fa-arrow-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+							<div class="preview">
+								<a href="/#">
+									<img class="tinted" src="/includes/images/latest-1.png" alt="poster">
+									<div class="text">Watch Trailer</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div><!--
+				--><div class="list-panel right-col">
+					<div class="title-bar">
+						<div class="heading">Similar Movies<span class="count count-right">5</span></div>
+					</div>
+					<div class="list img-full sixteenByNine">
+						<div class="episode-list card-slider">
+							<div class="swiper-wrapper">
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/#" data-router>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="sample poster"
+											>
+										</a>
+									</div>
+									<div class="info">
+										<div class="subtitle">Series 1</div>
+										<div class="title">Movie 1</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140mins</dd>
+											</dl>
+										</div>										
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/#" data-router>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="sample poster"
+											>
+										</a>
+									</div>
+									<div class="info">
+										<div class="subtitle">Series 1</div>
+										<div class="title">Movie 2</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/#" data-router>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="sample poster"
+											>
+										</a>
+									</div>
+									<div class="info">
+										<div class="subtitle">Series 1</div>
+										<div class="title">Movie 3</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/#" data-router>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="sample poster"
+											>
+											
+										</a>
+									</div>
+									<div class="info">
+										<div class="subtitle">Series 1</div>
+										<div class="title">Movie 4</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/#" data-router>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="sample poster"
+											>
+										</a>
+									</div>
+									<div class="info">
+										<div class="subtitle">Series 1</div>
+										<div class="title">Movie 5</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-bar">
+						<div id="episodelist-panel-prev" class="previous">
+							<i class="fal fa-arrow-up" aria-hidden="true"></i>
+						</div>
+						<div id="episodelist-panel-next" class="next ">
+							<i class="fal fa-arrow-down" aria-hidden="true"></i>
+						</div>
+					</div>			
+				</div><!--
+			--></div>
+			<div class="synopsis">
+				<div class="noClick left-col">
+					<div class="row">
+						<h2 >Show Information</h2>
+						<div class="col-left">
+							<div class="desciption">
+								<p>Willowbank Raceway, Queensland <br />Saturday January 20, 2016</p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+							</div>
+							<div class="download-section">
+								<a href="#"><p>Download <i class="fas fa-download"></i></p></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="right-col">
+					<div class="row">
+						<h2>Event Schedule</h2>
+						<ul>
+							<li>2:30 - Opening Ceremony</li>
+							<li>2:45 - ProSlammer Qualifiers</li>
+							<li>3:30 - Etc</li>
+							<li>3:30 - Etc</li>
+							<li>6:00 - Top Fuel</li>
+						</ul>
+						<p>#NITRO, #THUNDER, #SPORT, #MOTORSPORT</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<div class="reminderbox">
+			<div class="container">
+				<div class="rbwrapper">
+					<h3>Remind me</h3>
+					<h3>We can remind you when there's new 400 Thunder videos to watch.</h3>
+					<a href="#"><div class="setup">Set Up Reminders</div></a>
+				</div>
+			</div>
+		</div>
+
+			<section class="container slider">
+				<h2>Catch-Up</h2>
+				<div class="cards breaks-6-4-3-2 offset-navigation img-margin-5 info-margin-5 no-overflow sixteenByNine">
+					<div class="card-slider movie-slider">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>										
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>										
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+										
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="previous movie-prev">
+							<i class="fal fa-angle-left"></i>
+						</div>
+						<div class="next movie-next">
+							<i class="fal fa-angle-right"></i>
+						</div>
+						<div class="card-pagination">
+							<div class="pagination movie-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+		
+		<!----- END SHOW PANEL ----->
+		
+		<!----- FOOTER ----->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+
+			function link(event) {
+			  event.preventDefault();
+			  var href = event.currentTarget.getAttribute('href')
+			  window.location='' + href;
+			}
+				
+			(function() {
+
+
+				
+				// Initiate Telemovie Slider
+				var shows = sliderObj.init(".movie-slider","horizontal",{
+					pagination: {
+						el: '.movie-pagination',
+				        clickable: true,
+				        renderBullet: function (index, className) {
+				          return '<span class="' + className + '"></span>';
+				        }
+					},
+					navigation :  {
+						nextEl: '.movie-next',
+						prevEl: '.movie-prev',
+					},
+					centeredSlides: false,
+					loop: true
+				});
+				
+				// Initiate Episode List Slider
+				var eps = sliderObj.init(".episode-list","vertical" ,{
+				    navigation :  {
+						nextEl: '#episodelist-panel-next',
+						prevEl: '#episodelist-panel-prev',
+					}
+				});
+				sliderObj.sliderResizeHandler();
+				
+				function playAction(){
+					var playerElement = document.getElementsByClassName('player-container')[0];
+					Router.loadPageElement("/player.html",playerElement);
+					playerElement.parentNode.className = "card show-player";
+				}
+				
+				setTimeout(function() {
+					document.getElementById("site-loader").className = "hidden";
+					document.getElementById("play-video").addEventListener("click", playAction, false);
+					document.getElementById("play-video2").addEventListener("click", playAction, false);
+					document.getElementById("expand").addEventListener("click", function() {
+						var show = document.getElementById("show");
+						if(show.hasClass('expand')) {
+							show.removeClass('expand');
+							sliderObj.resetSwiper(eps,"horizontal");
+							bLazy.revalidate();
+						} else {
+							show.addClass('expand');
+							sliderObj.resetSwiper(eps,"vertical");
+	    				}
+					}, false);
+				}, 500);	
+				
+				 
+			})();
+			
+			    
+		</script>
+	</body>
+</html>

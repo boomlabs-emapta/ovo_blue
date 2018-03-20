@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ---->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ----->
+		
+		<!----- FEATURE ---->
+		<section class="feature-panel">
+			<div class="col2-panel sixteenByNine"><!--
+				--><div class="left-col">
+					<div class="cards sixteenByNine info-overlay">
+						<div class="feature-slider card-slider">
+							<div class="swiper-wrapper">
+								<div class="card swiper-slide sixteenByNine ">
+									<div class="img">
+										<img src="/includes/images/ban-1.jpg" alt="poster">
+										
+									</div>
+									<div class="label label-left">Featured</div>
+									<div class="info">
+										<div class="channel"><img src="/includes/images/logo/primary/tv2.png" alt="TV2"></div>
+										<div class="title">Sed vulputate mi sit amet</div>
+										<div class="action">
+											<a id="play-video2" href="/category.html">Watch Video <i class="fal fa-arrow-right" aria-hidden="true"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="card swiper-slide sixteenByNine">
+									<div class="img">
+										<img src="/includes/images/ban-2.jpg" alt="poster">
+									</div>
+									<div class="label label-left">Featured</div>
+									<div class="info">
+										<div class="channel"><img src="/includes/images/logo/primary/tv2.png" alt="TV2"></div>
+										<div class="title">Sed vulputate mi sit amet</div>
+										<div class="action">
+											<a id="play-video2">Watch Video <i class="fal fa-arrow-right" aria-hidden="true"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="previous feature-prev">
+								<i class="fal fa-angle-left"></i>
+							</div>
+							<div class="next feature-next">
+								<i class="fal fa-angle-right"></i>
+							</div>
+							<div class="card-pagination">
+								<div class="pagination feature-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div><!--
+				--><div class="list-panel right-col">
+					<div class="title-bar">
+						<div class="heading">Live<span class="count count-right">5</span></div>
+					</div>
+					<div class="list img-full sixteenByNine">
+						<div class="content-list card-slider">
+							<div class="swiper-wrapper">
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/category.html" onclick='link(event);'>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/ban-3.jpg" alt="TV1">
+										</a>
+										<div class="label">12 Mar</div>
+									</div>
+									
+									<div class="info">
+										<div class="subtitle">Live Event</div>
+										<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140mins</dd>
+											</dl>
+										</div>										
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/category.html"  onclick='link(event);'>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/ban-2.jpg" alt="TV2"
+											>
+										</a>
+										<div class="label live">Live Now</div>
+										<div class="progress">
+											<div class="progress-bar"></div>
+										</div>
+									</div>
+									<div class="info">
+										<div class="subtitle">Live Event</div>
+										<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140 mins</dd>
+											</dl>
+										</div>										
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/category.html"  onclick='link(event);'>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="TVi"
+											>
+										</a>
+										<div class="progress">
+											<div class="progress-bar"></div>
+										</div>
+									</div>
+									<div class="info">
+										<div class="subtitle">Live Event</div>
+										<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140 mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/category.html"  onclick='link(event);'>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/ban-1.jpg" alt="1 News"
+											>
+										</a>
+										<div class="progress">
+											<div class="progress-bar"></div>
+										</div>
+									</div>
+									<div class="info">
+										<div class="subtitle">Live Event</div>
+										<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140 mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<a href="/category.html"  onclick='link(event);'>
+											<img class="b-lazy"
+												src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+												data-src="/includes/images/latest-1.png" alt="RTM Parlimen"
+											>
+											
+										</a>
+										<div class="progress">
+											<div class="progress-bar"></div>
+										</div>
+									</div>
+									<div class="info">
+										<div class="subtitle">Live Event</div>
+										<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+										<div class="meta">
+											<dl>          
+											    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+											    <dd>140 mins</dd>
+											</dl>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-bar">
+						<div id="list-panel-prev" class="previous">
+							<i class="fal fa-arrow-up" aria-hidden="true"></i>
+						</div>
+						<div id="list-panel-next" class="next ">
+							<i class="fal fa-arrow-down" aria-hidden="true"></i>
+						</div>
+					</div>			
+				</div><!--
+			--></div>
+		</section>
+		<!----- END FEATURE ---->
+
+		<div class="clearfix"></div>
+
+		
+
+		<section class="signupbox">
+			<div class="container">
+				<div class="signupwrapper">
+					<h3>Sign in or create a free account to access live streams of your favourite sport!</h3>
+
+					<div class="signbuttons">
+						<a href="/signin.html"><div class="signin">Sign In</div></a>
+						<p>or</p>
+						<a href="/register-1.html?"><div class="signin">Create Account</div></a>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="container channelbox slider">
+			<h2>Channels</h2>
+			<div class="cards breaks-4-3-2 offset-navigation margin-0 img-margin-5 info-margin-5 no-overflow no-info sixteenByNine">
+				<div class="card-slider shows-slider">
+					<div class="swiper-wrapper">
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/channel.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/channels.png" alt="sample poster"
+									>
+								</a>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/channel.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/channels2.png" alt="sample poster"
+									>
+								</a>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/channel.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/channels3.png" alt="sample poster"
+									>
+								</a>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/channel.html">
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/channels4.png" alt="sample poster"
+									>
+								</a>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/channel.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/channels5.jpg" alt="sample poster"
+									>
+									
+								</a>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="cards-prev previous shows-prev">
+						<i class="fal fa-angle-left"></i>
+					</div>
+					<div class="cards-next next shows-next">
+						<i class="fal fa-angle-right"></i>
+					</div>
+					<div class="card-pagination">
+						<div class="pagination shows-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!----- Content ---->
+		<section class="container slider">
+			<h2>Latest</h2>
+			<div class="cards breaks-5-4-3-2 offset-navigation img-margin-5 info-margin-5 no-overflow sixteenByNine">
+				<div class="card-slider latest-slider">
+					<div class="swiper-wrapper">
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+									
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="previous latest-prev">
+						<i class="fal fa-angle-left"></i>
+					</div>
+					<div class="next latest-next">
+						<i class="fal fa-angle-right"></i>
+					</div>
+					<div class="card-pagination">
+						<div class="pagination latest-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container slider-sm">
+			<h2>Highlights</h2>
+			<div class="cards breaks-6-4-3-2 offset-navigation img-margin-5 info-margin-5 no-overflow sixteenByNine">
+				<div class="card-slider movie-slider">
+					<div class="swiper-wrapper">
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+									
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="previous movie-prev">
+						<i class="fal fa-angle-left"></i>
+					</div>
+					<div class="next movie-next">
+						<i class="fal fa-angle-right"></i>
+					</div>
+					<div class="card-pagination">
+						<div class="pagination movie-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!----- Content ---->
+		<section class="container slider">
+			<h2>Keep Watching</h2>
+			<div class="cards breaks-5-4-3-2 offset-navigation img-margin-5 info-margin-5 no-overflow sixteenByNine">
+				<div class="card-slider latest-slider">
+					<div class="swiper-wrapper">
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+											<div class="progress-bar"></div>
+										</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+									
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="previous latest-prev">
+						<i class="fal fa-angle-left"></i>
+					</div>
+					<div class="next latest-next">
+						<i class="fal fa-angle-right"></i>
+					</div>
+					<div class="card-pagination">
+						<div class="pagination latest-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="container slider">
+			<h2>Catchup</h2>
+			<div class="cards breaks-4-3-2 offset-navigation img-margin-5 info-margin-5 no-overflow sixteenByNine">
+				<div class="card-slider latest-slider">
+					<div class="swiper-wrapper">
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>										
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+									
+								</a>
+								<div class="label">12 Mar</div>
+								<div class="progress">
+									<div class="progress-bar"></div>
+								</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+						<div class="card swiper-slide">
+							<div class="img">
+								<a href="/category.html" >
+									<img class="b-lazy"
+										src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+										data-src="/includes/images/latest-1.png" alt="sample poster"
+									>
+								</a>
+								<div class="label">12 Mar</div>
+							</div>
+							<div class="info">
+								<div class="subtitle">Gymnastics</div>
+								<div class="title lines-2">2018 World Cup Gymnastics Melbourne</div>
+								<div class="meta">
+									<dl>          
+									    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+									    <dd>140 mins</dd>
+									</dl>
+								</div>	
+							</div>
+						</div>
+					</div>
+					<div class="previous latest-prev">
+						<i class="fal fa-angle-left"></i>
+					</div>
+					<div class="next latest-next">
+						<i class="fal fa-angle-right"></i>
+					</div>
+					<div class="card-pagination">
+						<div class="pagination latest-pagination"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<!----- FOOTER ---->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+			(function() {
+				// Initiate Feature Slider
+				
+				var feature = sliderObj.init(".feature-slider","horizontal",{
+					pagination: {
+						el: '.feature-pagination',
+				        clickable: true,
+				        renderBullet: function (index, className) {
+				          return '<span class="' + className + '"></span>';
+				        }
+					},
+					navigation :  {
+						nextEl: '.feature-next',
+						prevEl: '.feature-prev',
+					},
+					centeredSlides: true,
+					loop: true
+				});
+				
+				// Initiate Content Slider
+				var latest = sliderObj.init(".latest-slider","horizontal",{
+					pagination: {
+						el: '.latest-pagination',
+				        clickable: true,
+				        renderBullet: function (index, className) {
+				          return '<span class="' + className + '"></span>';
+				        }
+					},
+					navigation :  {
+						nextEl: '.latest-next',
+						prevEl: '.latest-prev',
+					},
+					centeredSlides: false,
+					loop: true
+				});
+				
+			    
+			    // Initiate Shows Slider
+				var shows = sliderObj.init(".shows-slider","horizontal",{
+					pagination: {
+						el: '.shows-pagination',
+				        clickable: true,
+				        renderBullet: function (index, className) {
+				          return '<span class="' + className + '"></span>';
+				        }
+					},
+					navigation :  {
+						nextEl: '.shows-next',
+						prevEl: '.shows-prev',
+					},
+					centeredSlides: false,
+					loop: true
+				});
+				
+				// Initiate Gymnastics Slider
+				var shows = sliderObj.init(".movie-slider","horizontal",{
+					pagination: {
+						el: '.movie-pagination',
+				        clickable: true,
+				        renderBullet: function (index, className) {
+				          return '<span class="' + className + '"></span>';
+				        }
+					},
+					navigation :  {
+						nextEl: '.movie-next',
+						prevEl: '.movie-prev',
+					},
+					centeredSlides: false,
+					loop: true
+				});
+				
+				sliderObj.init(".content-list","vertical",{
+				    navigation :  {
+						nextEl: '#list-panel-next',
+						prevEl: '#list-panel-prev',
+					}
+				});
+				sliderObj.sliderResizeHandler();
+			})();
+			
+			setTimeout(function() {
+				document.getElementById("site-loader").className = "hidden";
+			}, 300);		    
+		</script>
+		
+	</body>
+</html>

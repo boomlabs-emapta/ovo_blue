@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ----->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ----->
+		
+		<!----- SHOW PANEL ---->
+		<section class="fullwidth-player video-panel">
+			<div class="cards sixteenByNine info-overlay">
+				<div class="card">
+					<a id="play-video">
+						<div class="img">
+							<img src="/includes/images/latest-1.png" alt="poster">
+							<div class="btn-overlay" style="display:none;">
+								<i class="fas fa-play-circle"></i>
+							</div>
+							
+							<div class="label label-left upcoming">4 Mar</div>
+						</div>
+					</a>
+					<div class="player-container"></div>
+
+					<div class="register">
+						<a href="/signin.html?">
+							<div class="button">
+								Sign In
+							</div>
+						</a>
+					</div>
+					
+					<div class="info">
+						<div class="tx">400 Thunder</div>
+						<div class="title">Video Title</div>
+						<div class="action">
+							<a id="play-video2">Watch Video <i class="fal fa-arrow-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="preview" style="display: none;">
+						<a href="/#">
+							<img class="tinted" src="/includes/images/latest-1.png" alt="poster">
+							<div class="text">Watch Trailer</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="channelMeta" class="prelive">
+			
+			<div class="col2-panel sixteenByNine">
+
+				<div class="left-col">
+					<div class="innerContent">
+						<div class="img-box">
+							<img src="/includes/images/hires/ch1.jpg">
+						</div>
+						<h2 >Westernationals</h2>
+						<div class="eventAlert">
+							<i class="fas fa-bell"></i>
+						</div>
+						<ul class="eventDetails">
+							<li>Perth Motorplex, Perth, WA</li>
+							<li>3rd and 4th of March</li>
+							<li>5:30PM (AWST) - 11:00 (AWST)</li>
+						</ul>
+
+						<div class="clearfix"></div>
+
+					<p>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					
+						<p>#NITRO, #THUNDER, #SPORT, #MOTORSPORT</p>
+					</div>
+				</div>
+				<div class="right-col">
+					<div class="innerInfo">
+						<iframe
+						  width=""
+						  height=""
+						  frameborder="0" style="border:0"
+						  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCWZkOJKVuGO223ABx-D9xSaih5ZrPSnIo
+						    &q=Space+Needle,Seattle+WA" allowfullscreen>
+						</iframe>
+
+						<div id="the_link" class="full-schedule-btn folded">
+							SEE FULL SCHEDULE
+						</div>
+
+						<div id="content" class="scheduleList container" style="display:none;" >
+							<ul class="fullScheduleList">
+								<li><span class="time">2:30</span> <h3 class="title">Opening Ceremony</h3></li>
+								<li><span>2:35</span> <h3>Proslammers Qualifying Race</h3></li>
+								<li><span>2:40</span> <h3>Proslammers Qualifying Race 2</h3></li>
+								<li><span>2:45</span> <h3>Proslammers Qualifying Race 3</h3></li>
+								<li><span>2:50</span> <h3>Proslammers Qualifying Race 4</h3></li>
+								<li><span>2:55</span> <h3>Proslammers Qualifying Race 5</h3></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="container slider mediumBlue">
+				<h2>Catch-Up</h2>
+				<div class="cards breaks-6-4-3-2 offset-navigation img-margin-5 info-margin-5 no-overflow sixteenByNine">
+					<div class="card-slider movie-slider">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>										
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>										
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+										
+									</a>
+									<div class="progress">
+										<div class="progress-bar"></div>
+									</div>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<a href="/#" data-router>
+										<img class="b-lazy"
+											src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+											data-src="/includes/images/toppicks.jpg" alt="sample poster"
+										>
+									</a>
+								</div>
+								<div class="info">
+									<div class="subtitle">400 Thunder</div>
+									<div class="title lines-2">Racing Tournaments 2018</div>
+									<div class="meta">
+										<dl>          
+										    <dt><i class="fa fa-clock" aria-hidden="true"></i></dt>
+										    <dd>140mins</dd>
+										</dl>
+									</div>	
+								</div>
+							</div>
+						</div>
+						<div class="previous movie-prev">
+							<i class="fal fa-angle-left"></i>
+						</div>
+						<div class="next movie-next">
+							<i class="fal fa-angle-right"></i>
+						</div>
+						<div class="card-pagination">
+							<div class="pagination movie-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>	
+		
+		<!----- END SHOW PANEL ----->
+		
+		<!----- FOOTER ----->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+			function shower() {
+			$(".folded").on("click", function(event) {
+				console.log('shower function');
+				$("#content").show();
+				$("#the_link").removeClass("folded").addClass("unfolded");
+				$(".folded").off('click');
+				hider();
+			});
+			}
+
+			function hider() {
+				
+			$(".unfolded").click(function(event) {
+				console.log('hider function');
+				$("#content").hide();
+				$("#the_link").removeClass("unfolded").addClass("folded");
+				$(".unfolded").off('click');
+				shower();
+			});
+			}
+
+
+			shower();
+			hider();
+
+			function link(event) {
+				  event.preventDefault();
+				  var href = event.currentTarget.getAttribute('href')
+				  window.location='' + href;
+				} 
+			(function() {
+				
+				// Initiate Episode List Slider
+
+				setTimeout(function() {
+					document.getElementById("site-loader").className = "hidden";
+				}, 500);	
+				 
+			})();
+			
+			    
+		</script>
+	</body>
+</html>

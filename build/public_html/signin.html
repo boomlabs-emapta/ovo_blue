@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ---->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ---->
+		
+		<!----- LOGIN ---->
+
+
+		<div class="full-width">
+
+		<section class="box-type">
+
+			<div class="registration page">
+				<h2>Sign In</h2>
+
+
+						
+				  <a class="btn social-btn fb"><i class="fab fa-facebook-f"></i> Facebook</a>
+				  <a class="btn  social-btn gl"><i class="fab fa-google-plus"></i> Google</a>
+
+				  <hr>
+
+				<form>
+				  <div class="form-group">
+				    <label for="emailForm">Email</label>
+				    <input type="email" class="form-control" id="emailForm" aria-describedby="emailHelp" >
+				  </div>
+				  <div class="form-group">
+				    <label for="passwordForm">Password</label>
+				    <input type="password" class="form-control" id="passwordForm">
+				  </div>
+
+				  <button type="submit" class="btn signin">Sign In</button>
+
+				  <a href="/forget-password.html" onclick='link(event);' class="forgetpw">Forget your password?</a>
+
+									
+				</form>
+			</div>
+		</section>
+		</div>		
+		
+		<!----- END LOGIN PANEL ----->
+		
+		<!----- FOOTER ---->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+
+			function link(event) {
+			  event.preventDefault();
+			  var href = event.currentTarget.getAttribute('href')
+			  window.location='' + href;
+			}
+				
+			(function() {
+				
+				// Initiate Episode List Slider
+
+				setTimeout(function() {
+					document.getElementById("site-loader").className = "hidden";
+				}, 500);	
+
+				
+				 
+			})();
+			
+			    
+		</script>
+	</body>
+</html>

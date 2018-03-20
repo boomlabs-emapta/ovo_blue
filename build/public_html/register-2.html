@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head w3-include-html="/includes/templates/partials/head.html"></head>
+	<body id="body" class="header-fixed">
+		<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+		<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+			<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+		</div>
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+		
+		<!----- HEADER AUX and MAIN NAV BAR ---->
+		<header w3-include-html="/includes/templates/partials/header.html"></header>
+		<!----- ENDHEADER AUX and MAIN NAV BAR ----->
+		
+		<!----- SHOW PANEL ---->
+		<div class="full-width">
+		<section class="container">
+			<div class="registration-2 page">
+				<h2>What are you fan of?</h2>
+				<h3>Choose 3 so we can customize ovo for you.</h3>
+
+
+	
+
+				<div class="container">
+
+					<div class="card-container">
+						<div class="cards sixteenByNine breaks-5-4-3-2-1">
+							<div class="rows">
+								<div class="card">
+									<div class="img">
+										<img src="/includes/images/channels/box1.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/channels/box2.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/channels/box3.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/channels/box4.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/channels/box5.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/radios/2dayhit1041_horizontal-on-white.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/radios/foxhit1019-logo_horiz-on-white.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/radios/hit105_horizontal_on-white.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/radios/hit1009hobart_horizontal-on-white.png" alt="">
+									</div>
+								</div><div class="card">
+									<div class="img">
+										<img src="/includes/images/radios/Tile-Hit-1035-Cairns-Lowres.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a href="/" class="btn">Register</a>
+
+			</div>
+		</section>
+		</div>		
+		
+		<!----- END SHOW PANEL ---->
+		
+		<!----- FOOTER ---->
+		<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+		<!----- END FOOTER ---->
+		
+		
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>w3.includeHTML();</script>
+		<script>
+			function link(event) {
+				  event.preventDefault();
+				  var href = event.currentTarget.getAttribute('href')
+				  window.location='' + href;
+				}
+
+			(function() {
+				
+				// Initiate Episode List Slider
+
+				setTimeout(function() {
+					document.getElementById("site-loader").className = "hidden";
+				}, 500);	
+
+				
+				 
+			})();
+			
+			    
+		</script>
+	</body>
+</html>

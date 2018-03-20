@@ -1,0 +1,9 @@
+.channel-fearture .brand-container {
+  width: calc(9/25 * 100vw);
+  height: calc(9/25 * 100vw);
+  background: #cc3333; }
+
+.channel-fearture .feature-container {
+  width: calc(16/25 * 100vw);
+  height: calc(9/25 * 100vw);
+  background: #333333; }

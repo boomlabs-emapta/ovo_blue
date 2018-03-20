@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head w3-include-html="/includes/templates/partials/head.html"></head>
+
+<body id="body" class="header-fixed">
+	<!-- FOR DEMO ONLY REMOVE IN FINAL TEMPLATE-->
+	<div id="site-loader" class="loader" style="
+			position:fixed;
+			top:0;
+			width: 100vw;
+			bottom: 0;
+			background:#552cca;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+			z-index:99999">
+		<img src="/includes/images/logo/logo.svg" width="100" alt="MyKlik" />
+	</div>
+	<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<!-- END DEMO CODE -- REMOVE IN FINAL TEMPLATE-->
+
+	<!----- HEADER AUX and MAIN NAV BAR ----->
+	<header w3-include-html="/includes/templates/partials/header.html"></header>
+	<!----- ENDHEADER AUX and MAIN NAV BAR ----->
+
+	<!----- SHOW PANEL ---->
+	<section class="fullwidth-player video-panel">
+		<div class="cards sixteenByNine info-overlay">
+			<div class="card">
+				<a id="play-video">
+					<div class="img">
+						<img src="/includes/images/latest-1.png" alt="poster">
+						<div class="btn-overlay" style="display:none">
+							<i class="fas fa-play-circle"></i>
+						</div>
+					</div>
+				</a>
+				<div class="player-container"></div>
+
+				<div class="register">
+					<a href="/signin.html?">
+						<div class="button">
+							Sign In
+						</div>
+					</a>
+				</div>
+
+				<div class="info">
+					<div class="tx">400 Thunder</div>
+					<div class="title">Video Title</div>
+					<div class="action">
+						<a id="play-video2">Watch Video
+							<i class="fal fa-arrow-right" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div class="preview" style="display: none;">
+					<a href="/#">
+						<img class="tinted" src="/includes/images/latest-1.png" alt="poster">
+						<div class="text">Watch Trailer</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fullSchedule" class="container">
+
+		<div class="col2-panel sixteenByNine">
+
+			<div class="left-col">
+				<div class="innerContent">
+					<div class="img-box" style="display:none;">
+						<img src="/includes/images/hires/ch1.jpg">
+					</div>
+					<h3>Westernationals</h3>
+					<ul>
+						<li>Perth Motorplex, Perth, WA</li>
+						<li>3rd and 4th of March</li>
+						<li>5:30PM (AWST) - 11:00 (AWST)</li>
+					</ul>
+					<p>
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+						cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+
+				<div class="pad-5">
+					<div class="reminderbox">
+						<div class="container">
+							<div class="rbwrapper">
+								<h3>Remind me</h3>
+								<h3>We can remind you when there's new Westernationals videos to watch.</h3>
+								<a href="#"><div class="setup">Set Up Reminders</div></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="scheduleList container" >
+					<ul>
+						<li>
+							<img src="/includes/images/event-car.png">
+							<div class="info">
+								<h3>PyeongChang 2018</h3>
+								<ul>
+									<li><i class="fas fa-clock"></i><span>Time: </span>11:15 am- 11:30 am</li>
+									<li><i class="fas fa-map-pin"></i><span>Venue : </span>Perth Motorplex, Perth, WA</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<img src="/includes/images/event.png">
+							<div class="info">
+								<h3>F1 Grand Prix</h3>
+								<ul>
+									<li><i class="fas fa-clock"></i><span>Time: </span>11:15 am- 11:30 am</li>
+									<li><i class="fas fa-map-pin"></i><span>Venue : </span>Perth Motorplex, Perth, WA</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<img src="/includes/images/event-car.png">
+							<div class="info">
+								<h3>PyeongChang 2018</h3>
+								<ul>
+									<li><i class="fas fa-clock"></i><span>Time: </span>11:15 am- 11:30 am</li>
+									<li><i class="fas fa-map-pin"></i><span>Venue : </span>Perth Motorplex, Perth, WA</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<img src="/includes/images/event.png">
+							<div class="info">
+								<h3>F1 Grand Prix</h3>
+								<ul>
+									<li><i class="fas fa-clock"></i><span>Time: </span>11:15 am- 11:30 am</li>
+									<li><i class="fas fa-map-pin"></i><span>Venue : </span>Perth Motorplex, Perth, WA</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<img src="/includes/images/event-car.png">
+							<div class="info">
+								<h3>PyeongChang 2018</h3>
+								<ul>
+									<li><i class="fas fa-clock"></i><span>Time: </span>11:15 am- 11:30 am</li>
+									<li><i class="fas fa-map-pin"></i><span>Venue : </span>Perth Motorplex, Perth, WA</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+						<li>
+							<img src="/includes/images/event.png">
+							<div class="info">
+								<h3>F1 Grand Prix</h3>
+								<ul>
+									<li><i class="fas fa-clock"></i><span>Time: </span>11:15 am- 11:30 am</li>
+									<li><i class="fas fa-map-pin"></i><span>Venue : </span>Perth Motorplex, Perth, WA</li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="right-col">
+				<div class="innerInfo">
+					<iframe width="" height="" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCWZkOJKVuGO223ABx-D9xSaih5ZrPSnIo
+						    &q=Space+Needle,Seattle+WA" allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<!----- END SHOW PANEL ----->
+
+	<!----- FOOTER ----->
+	<footer w3-include-html="/includes/templates/partials/footer.html" class="footer"></footer>
+	<!----- END FOOTER ---->
+
+
+	<script type="text/javascript" src="/includes/js/app.js"></script>
+	<script>w3.includeHTML();</script>
+	<script>
+
+		function link(event) {
+			event.preventDefault();
+			var href = event.currentTarget.getAttribute('href')
+			window.location = '' + href;
+		}
+		(function () {
+
+			// Initiate Episode List Slider
+
+			setTimeout(function () {
+				document.getElementById("site-loader").className = "hidden";
+			}, 500);
+
+		})();
+
+
+	</script>
+</body>
+
+</html>

@@ -264,16 +264,19 @@ section{
 		margin: 0px;
 		padding: 0px;
 		> li{
-			@include even()
-			{
-				background: $color-grey-light;
-			}
 			list-style: none; 
-			border: 1px solid #CCC;  
-			border-bottom: 0px;
-			background: #FFF; 
 			img{
 				float: left;
+			}
+			span,h3{
+				display: inline-block;
+				font-weight: normal;
+				color: $color-white;
+				margin: 5px 0;
+				font-size: 18px;
+			}
+			span{
+				margin-right: 15px;
 			}
 			.info{
 				.tmC{
@@ -310,9 +313,6 @@ section{
 					}
 				}
 			}
-		}
-		> li:last-child{
-			border-bottom: 1px solid #CCC; 
 		}
 	}
 } 

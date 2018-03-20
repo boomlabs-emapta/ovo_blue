@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Sample</title>
+		<meta name="language" content="english"> 
+		<meta http-equiv="content-type" content="text/html">
+		<meta name="author" content="OOVVOO">
+		<meta name="designer" content="Boom Labs">
+		<meta name="publisher" content="OOVVUU">
+		<meta name="title" content="SheppNews App">
+		<meta name="description" content="Shepperton Video News and Drama app">
+		<meta name="keywords" content="Shepperton,News,Video,BBC,Bloomberg,Oovvuu">
+		
+		<meta name="robots" content="index,follow">
+		<meta name="distribution" content="web">
+
+		<meta name="theme-color" content="#ed3a4b">
+		<meta name="apple-mobile-web-app-title" content="SheppNews">
+		<meta name='apple-mobile-web-app-capable' content='yes'>
+		<meta name='apple-touch-fullscreen' content='yes'>
+		<meta name='apple-mobile-web-app-status-bar-style' content='black'>
+		<meta name='format-detection' content='telephone=no'>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<meta name= "viewport" content = "width = device-width, initial-scale = 1, user-scalable = no">
+		
+		<!-- ICONS -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/includes/ico/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/includes/ico/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/includes/ico/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/includes/ico/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/includes/ico/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/includes/ico/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/includes/ico/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/includes/ico/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/includes/ico/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/includes/ico/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="144x144" href="/includes/ico/android-icon-144x144.png">
+		<link rel="icon" type="image/png" sizes="36x36" href="/includes/ico/android-icon-36x36.png">
+		<link rel="icon" type="image/png" sizes="72x72" href="/includes/ico/android-icon-72x72.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/includes/ico/android-icon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/includes/ico/favicon-16x16.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/includes/ico/favicon-32x32.png">
+		<link rel="icon" type="image/ico" href="/includes/ico/favicon-16x16.png">
+		<link rel="manifest" href="/includes/manifest/manifest.json">
+		
+		<!-- STARTUP IMAGES -->
+	
+	    <!-- iPad retina portrait startup image -->
+	    <link href="/includes/screens/ios/Default-Portrait@2x~ipad.png"
+	          media="(device-width: 768px) and (device-height: 1024px)
+	                 and (-webkit-device-pixel-ratio: 2)
+	                 and (orientation: portrait)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPad retina landscape startup image -->
+	    <link href="/includes/screens/ios/Default-Landscape@2x~ipad.png"
+	          media="(device-width: 768px) and (device-height: 1024px)
+	                 and (-webkit-device-pixel-ratio: 2)
+	                 and (orientation: landscape)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPad non-retina portrait startup image -->
+	    <link href="/includes/screens/ios/Default-Portrait~ipad.png"
+	          media="(device-width: 768px) and (device-height: 1024px)
+	                 and (-webkit-device-pixel-ratio: 1)
+	                 and (orientation: portrait)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPad non-retina landscape startup image -->
+	    <link href="/includes/screens/ios/Default-Landscape~ipad.png"
+	          media="(device-width: 768px) and (device-height: 1024px)
+	                 and (-webkit-device-pixel-ratio: 1)
+	                 and (orientation: landscape)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPhone 6 Plus portrait startup image -->
+	    <link href="/includes/screens/ios/Default-736h.png"
+	          media="(device-width: 414px) and (device-height: 736px)
+	                 and (-webkit-device-pixel-ratio: 3)
+	                 and (orientation: portrait)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPhone 6 Plus landscape startup image -->
+	    <link href="/includes/screens/ios/Default-Landscape-736h.png"
+	          media="(device-width: 414px) and (device-height: 736px)
+	                 and (-webkit-device-pixel-ratio: 3)
+	                 and (orientation: landscape)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPhone 6 startup image -->
+	    <link href="/includes/screens/ios/Default-667h.png"
+	          media="(device-width: 375px) and (device-height: 667px)
+	                 and (-webkit-device-pixel-ratio: 2)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPhone 5 startup image -->
+	    <link href="/includes/screens/ios/Default-568h@2x~iphone.png"
+	          media="(device-width: 320px) and (device-height: 568px)
+	                 and (-webkit-device-pixel-ratio: 2)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPhone < 5 retina startup image -->
+	    <link href="/includes/screens/ios/Default@2x~iphone.png"
+	          media="(device-width: 320px) and (device-height: 480px)
+	                 and (-webkit-device-pixel-ratio: 2)"
+	          rel="apple-touch-startup-image">
+	
+	    <!-- iPhone < 5 non-retina startup image -->
+	    <link href="/includes/screens/ios/Default~iphone.png"
+	          media="(device-width: 320px) and (device-height: 480px)
+	                 and (-webkit-device-pixel-ratio: 1)"
+	          rel="apple-touch-startup-image">
+			 		
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/includes/ico/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<!-- END ICONS -->
+		<link rel="stylesheet" type="text/css" href="/includes/css/app.css">
+	</head>
+	<body id="body" class="header-fixed">
+		<header data-header="main" class="hide-shadow-640px">
+			<div class="header-container">
+				<div class="logo"><img src="/includes/images/Shepparton-News.svg" /></div>
+				<div class="nav-container">
+					<a class="nav-icon" onclick="openCloseNav();"><span class="fal fal-bars"></span></a>
+					<a class="nav-icon hide-active toggle" onclick="toggle(this,'body','show-search');"><span class="fal fal-search"></span></a>
+					<nav class="">
+						<ul>
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Popular</a></li>
+							<li><a href="#">Recently Added</a></li>
+							<li><a href="#">Genre</a></li>
+							<li><a href="#">Foxy & Jr</a></li>
+							<li class="hidden-640px"><a class="toggle" onclick="toggle(this,'body','show-search');focusElement('search');"><span class="fal fal-search"></span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="line">
+				<div id="search-form" class="search">
+					<form>
+						<label for="search"><span class="fal fal-search"></span></label>
+						<input id="search" name="search" type="text" placeholder="Search" />
+					</form>
+				</div>
+			</div>
+			
+		</header>
+		<div class="content-overlay"></div>
+		<!----- FEATURE ----->
+		<div class="feature">
+			<div class="card-container">
+				<div class="cards card-info-right sixteenByNine margin-0 img-margin-0">
+					<div class="card-slider featureSlider">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<div class="img">
+									<img src="https://localnews-sheppnews-uploads-prod.s3.amazonaws.com/2017/Aug/17/asset_cN1avEAnuEnahMiHhRyn.PNG?time=1502930714" alt="">
+								</div><div class="info" data-swiper-parallax="-300">
+									<div class="info-container">
+										<div class="titles">
+											<h3 class="series-title"><a href="#">Series Title</a></h3>
+											<h2 class="title"><a href="#">Featured Episode Title 1</a></h2>
+											<div class="description"><p>In the tradition of March of the Penguins, The White Planet sets out to discover the fragile and threatened world or the Arctic</p></div>
+										</div>
+										<div class="meta">
+											<div class="duration serif">58mins</div>
+											<div class="genres serif">Military, Series, Documentary, History</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 2" alt="">
+								</div>
+								<div class="info" data-swiper-parallax="-300">
+									<div class="info-container">
+										<div class="titles">
+											<h3 class="series-title"><a href="#">Series Title</a></h3>
+											<h2 class="title"><a href="#">Featured Episode Title 1</a></h2>
+											<div class="description"><p>In the tradition of March of the Penguins, The White Planet sets out to discover the fragile and threatened world or the Arctic</p></div>
+										</div>
+										<div class="meta">
+											<div class="duration serif">58mins</div>
+											<div class="genres serif">Military, Series, Documentary, History</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 3" alt="">
+								</div>
+								<div class="info" data-swiper-parallax="-300">
+									<div class="info-container">
+										<div class="titles">
+											<h3 class="series-title"><a href="#">Series Title</a></h3>
+											<h2 class="title"><a href="#">Featured Episode Title 1</a></h2>
+											<div class="description"><p>In the tradition of March of the Penguins, The White Planet sets out to discover the fragile and threatened world or the Arctic</p></div>
+										</div>
+										<div class="meta">
+											<div class="duration serif">58mins</div>
+											<div class="genres serif">Military, Series, Documentary, History</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 4" alt="">
+								</div>
+								<div class="info" data-swiper-parallax="-300">
+									<div class="info-container">
+										<div class="titles">
+											<h3 class="series-title"><a href="#">Series Title</a></h3>
+											<h2 class="title"><a href="#">Featured Episode Title 1</a></h2>
+											<div class="description"><p>In the tradition of March of the Penguins, The White Planet sets out to discover the fragile and threatened world or the Arctic</p></div>
+										</div>
+										<div class="meta">
+											<div class="duration serif">58mins</div>
+											<div class="genres serif">Military, Series, Documentary, History</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 5" alt="">
+								</div>
+								<div class="info" data-swiper-parallax="-300">
+									<div class="info-container">
+										<div class="titles">
+											<h3 class="series-title"><a href="#">Series Title</a></h3>
+											<h2 class="title"><a href="#">Featured Episode Title 1</a></h2>
+											<div class="description"><p>In the tradition of March of the Penguins, The White Planet sets out to discover the fragile and threatened world or the Arctic</p></div>
+										</div>
+										<div class="meta">
+											<div class="duration serif">58mins</div>
+											<div class="genres serif">Military, Series, Documentary, History</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container hidden-480px">            
+				<div class="card-container with-btns">
+					<div class="cards sixteenByNine img-margin-0">
+						<div class="card-slider featureMenuSlider">
+							<div class="swiper-wrapper">
+								<div class="card swiper-slide">
+									<div class="img">
+										<img src="https://localnews-sheppnews-uploads-prod.s3.amazonaws.com/2017/Aug/17/asset_cN1avEAnuEnahMiHhRyn.PNG?time=1502930714" alt="">
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 2" alt="">
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 3" alt="">
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 4" alt="">
+									</div>
+								</div>
+								<div class="card swiper-slide">
+									<div class="img">
+										<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 5" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cards-prev">
+							<div class="btn-arrow"></div>
+						</div>
+						<div class="cards-next">
+							<div class="btn-arrow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!----- FOXY & JR ----->
+		<div class="container">
+			<div class="card-container">
+				<h2><strong>Card Slider</strong>: 5 x Sixteen By Nine Cards</h2>
+				<div class="cards sixteenByNine breaks-5-4-3-2-1">
+					<div class="card-slider">
+						
+						<div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 1" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 2" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 3" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 4" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img ">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 5" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!----- FOXY & JR ----->
+		<div class="container hidden">
+			<div class="card-container">
+				<h2><strong>4 Card Slider</strong>: 4 x Sixteen By Nine Cards</h2>
+				<div class="cards sixteenByNine fixed-height-col4-2-row1 inner-padding-0">
+					<div class="card-slider foxySlider">
+						<div class="swiper-wrapper">
+							<div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 1" alt="">
+								</div>
+							</div><div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 2" alt="">
+								</div>
+							</div><div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 3" alt="">
+								</div>
+							</div><div class="card swiper-slide">
+								<div class="img">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 4" alt="">
+								</div>
+							</div><div class="card swiper-slide">
+								<div class="img ">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER 5" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		<div class="container">
+			<div class="card-container">
+				<h2><strong>Card Stack</strong>: 4 Column Grid - Sixteen By Nine</h2>
+				<div class="cards sixteenByNine breaks-4-3-2-1">
+					<div class="rows">
+						<div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 1" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 2" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 3" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 4" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 5" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 6" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 7" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 8" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 9" alt="">
+							</div>
+						</div><div class="card">
+							<div class="img">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=CARD 10" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+<!--
+		<div class="card-container">
+			<h2><strong>Slider</strong>: 3 Column Grid - Sixteen By Nine</h2>
+			<div class="cards breaks-3-2-1 margin-0">
+				<div class="card-slider">
+					<div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="card-container">
+			<h2><strong>Slider</strong>: 2 Column Grid - Sixteen By Nine</h2>
+			<div class="cards breaks-2-1 margin-0">
+				<div class="card-slider">
+					<div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="card-container">
+			<h2><strong>Grid</strong>: 5 Column Grid - Sixteen By Nine</h2>
+			<div class="cards breaks-5-4-3-2-1">
+				<div>
+					<div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="card-container">
+			<h2><strong>Grid</strong>: 4 Column Grid - Sixteen By Nine</h2>
+			<div class="cards breaks-4-3-2-1">
+				<div>
+					<div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="card-container">
+			<h2><strong>Grid</strong>: 3 Column Grid - Sixteen By Nine</h2>
+			<div class="cards breaks-3-2-1">
+				<div>
+					<div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="card-container">
+			<h2><strong>Grid</strong>: 2 Column Grid - Sixteen By Nine</h2>
+			<div class="cards breaks-2-1">
+				<div>
+					<div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div><div class="card">
+						<div class="img sixteenByNine">
+							<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+-->
+		
+		<div class="container">
+			<div class="row fixed-height-row2 flex-height sixteenByNine">
+				<div class="col-36-17  padding-0" style="display: flex">
+					<div class="cards vertical-cards" style="width:100%">
+						<div class="card">
+							<div class="img ">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-36-7 padding-0">
+					<div class="cards vertical-cards">
+						<div class="card margin-0 padding-0 height-30p">
+							<div class="img threeByTwo">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=1" alt="">
+							</div>
+						</div>
+						<div class="card margin-0 padding-0 height-30p">
+							<div class="img threeByTwo">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=2" alt="">
+							</div>
+						</div>
+						<div class="card margin-0 padding-0 height-30p">
+							<div class="img threeByTwo">
+								<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=3" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-36-12 padding-0">
+					<div class="cards vertical-cards img-margin-0">
+						<div>
+							<div class="card margin-8">
+								<div class="img sixteenByNine">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+								</div>
+							</div><div class="card">
+								<div class="img sixteenByNine">
+									<img src="http://placehold.it/960x540/747474/ffffff.png&amp;text=SLIDER" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+            <div class="footer__container">
+			    <div class="footer__info">
+			        <a href="http://www.sheppnews.com.au" class="footer__logo visible-lg"></a>
+			        <div class="footer__copyright">Copyright McPherson Media Group 2017</div>
+			        <div class="footer__copyright">Powered by <a href="https://www.oovvuu.com" target="_blank">Oovvuu</a> | Built by <a href="https://www.boomlabs.tv" target="_blank">Boom Labs</a></div>
+			    </div>
+			    <div class="footer__navigation">
+			        <div class="footer__navigation--col-half">
+                        <ul class="footer__navigation--col-1">
+							<li class="footer__navigation-item"><a href="http://www.sheppnews.com.au" class="footer__navigation-link">Home</a></li>   
+							<li class="footer__navigation-item"><a href="http://news.sheppnews.com.au" class="footer__navigation-link">News</a></li>   
+							<li class="footer__navigation-item"><a href="http://sport.sheppnews.com.au" class="footer__navigation-link">Sport</a></li>   
+							<li class="footer__navigation-item"><a href="http://opinion.sheppnews.com.au" class="footer__navigation-link">Opinion</a></li>   
+			            </ul>
+			            <ul class="footer__navigation--col-2">
+							<li class="footer__navigation-item"><a href="http://entertainment.sheppnews.com.au" class="footer__navigation-link">Entertainment</a></li>   
+							<li class="footer__navigation-item"><a href="http://lifestyle.sheppnews.com.au" class="footer__navigation-link">Lifestyle</a></li>   
+							<li class="footer__navigation-item"><a href="http://education.sheppnews.com.au" class="footer__navigation-link">Education</a></li>   
+							<li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/event/list" class="footer__navigation-link">Events</a></li>   
+			            </ul>
+			        </div>
+			        <div class="footer__navigation--col-half">
+			            <ul class="footer__navigation--col-3">
+							<li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/" class="footer__navigation-link">Local News</a></li>
+							<li class="footer__navigation-item"><a href="http://regional.sheppnews.com.au" class="footer__navigation-link">Regional News</a></li>
+							<li class="footer__navigation-item"><a href="http://rural.sheppnews.com.au" class="footer__navigation-link">Rural News</a></li>
+			                <li class="footer__navigation-item"><a href="http://national.sheppnews.com.au" class="footer__navigation-link">National News</a></li>
+			            </ul>
+			            <ul class="footer__navigation--col-4">
+			                <li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/page/contact" class="footer__navigation-link">Contact us</a></li>
+			                <li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/page/advertise" class="footer__navigation-link">Advertising</a></li>
+			                <li class="footer__navigation-item"><a href="http://sheppartonnews.pressreader.com" class="footer__navigation-link" target="_blank">Digital Edition</a></li>
+			                <li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/page/page/about-us" class="footer__navigation-link">About Us</a></li>
+			                <li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/page/page/terms-conditions" class="footer__navigation-link">General Use Policy</a></li>
+			                <li class="footer__navigation-item"><a href="http://www.sheppnews.com.au/page/page/privacy-policy" class="footer__navigation-link">Privacy Policy</a></li>
+			            </ul>
+			        </div>
+			    </div>
+			</div>
+        </footer>
+		<script type="text/javascript" src="/includes/js/app.js"></script>
+		<script>
+			var spacing = 3;
+			var feature = new Swiper('.featureSlider', {
+		        spaceBetween: 0,
+		        parallax: true,
+				speed: 600,
+		        slidesPerView: 1,
+		        centeredSlides: false,
+				slideToClickedSlide: false,
+		        loop: true,
+		        grabCursor: true
+		    });
+			var featureMenuSlider = new Swiper('.featureMenuSlider', {
+		        spaceBetween: 0,
+		        parallax: true,
+				speed: 600,
+		        slidesPerView: 5,
+		        centeredSlides: false,
+				slideToClickedSlide: false,
+		        loop: true,
+		        grabCursor: true,
+		        nextButton: '.cards-next',
+		        prevButton: '.cards-prev',
+				// Responsive breakpoints
+				breakpoints: {
+					// when window width is <= 480px
+					480: {
+						slidesPerView: 2,
+						spaceBetween: 0
+					},
+					// when window width is <= 640px
+					640: {
+						slidesPerView: 2,
+						spaceBetween: 0
+					},
+					// when window width is <= 640px
+					960: {
+						slidesPerView: 3,
+						spaceBetween: 0
+					},
+					1200: {
+						slidesPerView: 4,
+						spaceBetween: 0
+					}
+					
+				}
+		    });
+		    
+		    var setSpacing = function(spacing){
+			    return spacing/100 * document.body.clientWidth;
+		    };
+		    
+		    var foxySlider = new Swiper('.foxySlider', {
+		        spaceBetween: setSpacing(3),
+		        parallax: true,
+				speed: 600,
+		        slidesPerView: 4,
+		        centeredSlides: false,
+				slideToClickedSlide: false,
+		        loop: true,
+		        grabCursor: true,
+		        nextButton: '.cards-next',
+		        prevButton: '.cards-prev',
+				// Responsive breakpoints
+				breakpoints: {
+					// when window width is <= 480px
+					480: {
+						slidesPerView: 2,
+						spaceBetween: 0
+					},
+					// when window width is <= 640px
+					640: {
+						slidesPerView: 2,
+						spaceBetween: setSpacing(3)
+					},
+					// when window width is <= 640px
+					960: {
+						slidesPerView: 3,
+						spaceBetween: setSpacing(3)
+					},
+					1200: {
+						slidesPerView: 4,
+						spaceBetween: setSpacing(3)
+					}
+					
+				}
+		    });	    
+		    
+
+		</script>
+	</body>
+</html>

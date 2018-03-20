@@ -1,0 +1,45 @@
+<script type="text/javascript" src="/includes/player/player.js"></script>
+<div id="player" class="player"></div>
+<script>
+	
+	var conf = {
+		key:       "7bf6e1dd-a422-4f31-ac3b-0e397ac7f580",
+		source: {
+			//hls:      "https://d1cq5wn80firug.cloudfront.net/675915_6f6b934cf583b9072e07006da0f8ee37/m3u8s/675915.m3u8",
+			hls:        "https://d1cq5wn80firug.cloudfront.net/681175_851a0d0645d78b6ab3cd97d65b402c4c/m3u8s/681175.m3u8",
+			//poster:	"/includes/images/latest-1.png"
+		},
+		playback : {
+			autoplay  : true,
+			muted: true
+		},
+		location : {
+		  flash : 'includes/player/player.swf',
+		  vr    : 'includes/player/player-vr.js',
+		  ui    : 'includes/player/player-ui.js',
+		  ui_css: 'includes/player/player-ui.css'
+		}
+	};
+	
+	function initPlayer() {
+		if(typeof bitmovin != "undefined") {
+			var player = bitmovin.player("player");
+
+			player.setup(conf).then(function(value) {
+				// Success
+				console.log("Created player");
+			}, function(reason) {
+				// Error!
+				console.log("Error creating player");
+			});
+		} else {
+			setTimeout(function() {
+				initPlayer();
+			},500);	
+		}
+		
+	};
+	
+	initPlayer();
+</script>
+
