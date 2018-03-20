@@ -1,0 +1,89 @@
+/*
+Error: Invalid CSS after "...},#{$breaks-md}": expected ")", was ",#{$breaks-sm},..."
+        on line 145 of D:/#WORK_BoomLabs/04_TeamProjects/Ovo/02_Development/html_templates_lightblue/source/sass/imports/variables.scss
+        from line 1 of D:\#WORK_BoomLabs\04_TeamProjects\Ovo\02_Development\html_templates_lightblue\source\sass\app.scss
+
+140: $breaks-sm: 640px;
+141: $breaks-md: 960px;
+142: $breaks-lg: 1200px;
+143: $breaks-xl: 1500px;
+144: 
+145: $breaks: 	(#{$breaks-xl},#{$breaks-lg},#{$breaks-md},#{$breaks-sm},#{$breaks-xs});
+146: $break-7-1: (7,7,5,3,1);
+147: $break-6-2: (6,5,4,2,2);
+148: $break-5-2: (5,4,3,2,2);
+149: $break-5-1: (5,4,3,2,1);
+150: $break-4-2: (4,4,3,2,2);
+
+Backtrace:
+D:/#WORK_BoomLabs/04_TeamProjects/Ovo/02_Development/html_templates_lightblue/source/sass/imports/variables.scss:145
+D:\#WORK_BoomLabs\04_TeamProjects\Ovo\02_Development\html_templates_lightblue\source\sass\app.scss:1
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:731:in `assert_tok'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:667:in `paren'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:619:in `square_list'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:606:in `special_fun'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:600:in `raw'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:519:in `funcall'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:500:in `ident'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_not'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_div'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_minus'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:291:in `unary_plus'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `times_div_or_mod'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `plus_or_minus'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `relational'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `eq_or_neq'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `and_expr'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:272:in `or_expr'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:474:in `space'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:415:in `interpolation'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:339:in `expr'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:722:in `assert_expr'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/parser.rb:68:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1134:in `sass_script'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:642:in `variable'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:321:in `to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2018/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...},#{$breaks-md}\": expected \")\", was \",#{$breaks-sm},...\"\A         on line 145 of D:/#WORK_BoomLabs/04_TeamProjects/Ovo/02_Development/html_templates_lightblue/source/sass/imports/variables.scss\A         from line 1 of D:\#WORK_BoomLabs\04_TeamProjects\Ovo\02_Development\html_templates_lightblue\source\sass\app.scss\A \A 140: $breaks-sm: 640px;\A 141: $breaks-md: 960px;\A 142: $breaks-lg: 1200px;\A 143: $breaks-xl: 1500px;\A 144: \A 145: $breaks: 	(#{$breaks-xl},#{$breaks-lg},#{$breaks-md},#{$breaks-sm},#{$breaks-xs});\A 146: $break-7-1: (7,7,5,3,1);\A 147: $break-6-2: (6,5,4,2,2);\A 148: $break-5-2: (5,4,3,2,2);\A 149: $break-5-1: (5,4,3,2,1);\A 150: $break-4-2: (4,4,3,2,2);"; }

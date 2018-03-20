@@ -1,0 +1,147 @@
+.b-lazy {
+    -webkit-transition: opacity 500ms ease-in-out;
+       -moz-transition: opacity 500ms ease-in-out;
+         -o-transition: opacity 500ms ease-in-out;
+            transition: opacity 500ms ease-in-out;
+               opacity: 0;
+}
+.b-lazy.b-loaded {
+    opacity: 1;
+}
+
+.swiper-button-disabled {
+	color : rgba( $color-grey-80, 0.4 );
+	&:hover {
+		background: #cccccc !important;
+	}
+}
+
+
+.tinted { opacity: 0.7; }
+
+.count {
+	display: inline-block;
+	border-radius: 4px;
+	background: $ovo-medium-blue;
+	font-size: 10px;
+	line-height: normal;
+	padding: 2px;
+	min-width: 20px;
+	height: 14px; 
+	text-align: center;
+	color: #fff;
+	&.count-right {
+		float: right;
+	}
+}
+
+.content-overlay {
+	display: none;
+	position: absolute;
+	z-index: 300;
+	top:0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.6);
+}
+	
+.content-loader {
+	position: absolute;
+	z-index: 300;
+	top:0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.6);
+	.loader {
+		display: table;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		.spinner {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	&.bg-black {
+		color: $color-white;
+		background: $color-black;
+	}
+}
+
+
+.pull-right {
+	float: right;
+}
+	
+	
+.hidden {
+	display: none !important;
+}
+.visible {
+	display: block;
+}
+.block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+}
+
+.padding {
+	padding: $grid-spacing;
+}
+
+.margin {
+	padding: $grid-spacing;
+}
+
+.btn {
+	&.btn-link {
+		background: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		&:hover {
+			background: none;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+}
+
+
+.bg-black {
+	background: #000 !important;;
+}
+
+.bg-white {
+	background: #FFF !important;;
+}
+
+.bg-dark-blue {
+	background: $color-dark-blue !important;;
+}
+
+.bg-dark {
+	background: $color-dark !important;
+}
+.bg-grey-80 {
+	background: $color-grey-80 !important;
+}
+
+.bg-grey-60 {
+	background: $color-grey-60 !important;
+}
+.bg-grey-40 {
+	background: $color-grey-40 !important;
+}
+
+.bg-grey-20 {
+	background: $color-grey-20 !important;
+}
+.bg-grey-10 {
+	background: $color-grey-10 !important;
+}
+
+.bg-grey-5 {
+	background: $color-grey-5 !important;
+}

@@ -1,0 +1,16 @@
+@import 'imports/variables';
+@import 'imports/mixins';
+
+$left-col : 70;
+$left-col-lg : 65;
+$left-col-md : 60;
+$left-col-sm : 100;
+
+$right-col : 30;
+$right-col-lg : 35;
+$right-col-md : 40;
+$right-col-sm : 100;
+
+.card {
+	@include card-list-number(($left-col-md*1vw),2,$divider,#e0e0e0,14px);
+}

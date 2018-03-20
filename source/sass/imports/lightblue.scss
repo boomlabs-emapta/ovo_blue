@@ -1,0 +1,81 @@
+/* THEME */
+
+body{
+	background: $ovo-light-blue; 
+} 
+
+.slider,
+section.container{
+    h2{
+        color: #FFF;
+    }
+}
+
+.swiper-slide{
+    color: #FFF;
+}
+
+.cards.offset-navigation .previous,
+.cards.offset-navigation .next{
+    background: transparent;
+}
+
+section.container .latestbox .cards .rows .card .info{
+    color: #FFF;
+}
+
+.innerContent{ 
+    p{
+    color: #FFF;
+    }
+}
+
+.card .info{
+    color: #FFF;
+}
+
+section .synopsis .left-col{
+    .download-section{
+        a{
+            color: #FFF;
+        }
+    }
+}
+
+section{
+    .synopsis{
+        background: $ovo-medium-blue; 
+        h2,
+        .desciption{
+            color: #FFF;
+        }
+
+        .right-col{
+            
+            color: #FFF;
+        }
+    }
+}
+
+.mediumBlue{
+    background: $ovo-medium-blue; 
+}
+
+section.feature-panel{
+    .swiper-wrapper{ 
+        .info{
+            color: #000; 
+        }
+    }
+}
+
+.event-list{
+    .info{
+        .subtitle{
+            color: #000;
+        }
+        .title{
+            color: #000;
+        }
+    }
+}

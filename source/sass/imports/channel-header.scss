@@ -1,0 +1,35 @@
+section.channel-feature {
+	.brand-container {
+		width : 9/25 * 100%;
+		height: calc(9/25 * 100vw);
+		background: #FFF;  
+		display: inline-block;
+		vertical-align: top; 
+
+		img{
+			width: 100%;   
+		}
+	}
+	.feature-container {
+		width : 16/25 * 100%;
+		height: calc(9/25 * 100vw);
+		background: #333333;  
+		display: inline-block;
+		vertical-align: top;
+		overflow: hidden;
+		position: relative;
+
+		@media (max-width: 430px) {
+			.feature-prev,.feature-next{
+				display: none;
+			}
+
+			.info{
+				font-size: 3vw !important;
+				padding-left: 10px;
+				padding-bottom: 5px;
+			}
+		}
+
+	}
+}

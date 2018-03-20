@@ -1,0 +1,5 @@
+{
+    "php.validate.enable" : true,
+    "php.validate.run": "onSave",
+    "php.validate.executablePath": "C:/MAMP/bin/php/php7.1.7/php.exe"
+}
