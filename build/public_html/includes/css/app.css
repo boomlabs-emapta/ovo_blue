@@ -7995,6 +7995,12 @@ section {
       display: inline-block;
       margin: 0;
       padding: 0; }
+      @media (max-width: 770px) {
+        section#channelMeta .col2-panel .right-col, section#fullSchedule .col2-panel .right-col {
+          width: 91% !important; } }
+      @media (max-width: 430px) {
+        section#channelMeta .col2-panel .right-col, section#fullSchedule .col2-panel .right-col {
+          width: 100% !important; } }
       section#channelMeta .col2-panel .right-col .full-schedule-btn, section#fullSchedule .col2-panel .right-col .full-schedule-btn {
         color: white;
         background: #F56C23;
@@ -8009,6 +8015,18 @@ section {
         @media (max-width: 430px) {
           section#channelMeta .col2-panel .right-col .full-schedule-btn, section#fullSchedule .col2-panel .right-col .full-schedule-btn {
             margin: 0 auto; } }
+        @media (max-width: 770px) {
+          section#channelMeta .col2-panel .right-col .full-schedule-btn, section#fullSchedule .col2-panel .right-col .full-schedule-btn {
+            margin: 50px 0; } }
+      @media (max-width: 430px) {
+        section#channelMeta .col2-panel .right-col .fullScheduleList, section#fullSchedule .col2-panel .right-col .fullScheduleList {
+          margin: 0 16px 30px; } }
+      @media (max-width: 430px) {
+        section#channelMeta .col2-panel .right-col .fullScheduleList li span.time, section#fullSchedule .col2-panel .right-col .fullScheduleList li span.time {
+          font-size: 4vw; } }
+      @media (max-width: 430px) {
+        section#channelMeta .col2-panel .right-col .fullScheduleList li h3.title, section#fullSchedule .col2-panel .right-col .fullScheduleList li h3.title {
+          font-size: 4vw; } }
   section#channelMeta .pad-5, section#fullSchedule .pad-5 {
     padding: 0 5%; }
   section#channelMeta.prelive .col2-panel .right-col, section#fullSchedule.prelive .col2-panel .right-col {
@@ -8019,7 +8037,7 @@ section {
     line-height: 1.5; }
     section#channelMeta .col2-panel .left-col, section#fullSchedule .col2-panel .left-col {
       white-space: normal; }
-      @media (max-width: 430px) {
+      @media (max-width: 770px) {
         section#channelMeta .col2-panel .left-col, section#fullSchedule .col2-panel .left-col {
           width: 100%;
           display: block; } }

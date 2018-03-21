@@ -136,7 +136,13 @@ section{
 				margin: 0;
 				padding: 0;
 
-				
+				@media (max-width: 770px) {
+					width: 91% !important;
+				}
+
+				@media (max-width: 430px) {
+					width: 100% !important;
+				}
 
 				.full-schedule-btn{
 					color: white;
@@ -153,6 +159,28 @@ section{
 				   @media (max-width: 430px) {
 					   margin: 0 auto;
 				   }
+
+				   @media (max-width: 770px) {
+					   margin: 50px 0;
+				   }
+				}
+
+				.fullScheduleList{
+					@media (max-width: 430px) {
+						margin: 0 16px 30px;
+					}
+					li{
+						span.time{
+							@media (max-width: 430px) {
+								font-size: 4vw;
+							}
+						}
+						h3.title{
+							@media (max-width: 430px) {
+								font-size: 4vw;
+							}
+						}
+					}
 				}
 			}
 
@@ -181,7 +209,7 @@ section{
 			.left-col{
 				white-space: normal;
 
-				@media (max-width: 430px) {
+				@media (max-width: 770px) {
 					width: 100%;
 					display: block;
 				}
