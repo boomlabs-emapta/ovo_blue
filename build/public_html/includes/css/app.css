@@ -7945,7 +7945,8 @@ section {
       section#channelMeta .col2-panel .left-col .innerContent, section#fullSchedule .col2-panel .left-col .innerContent {
         color: #FFF; }
         section#channelMeta .col2-panel .left-col .innerContent h2, section#fullSchedule .col2-panel .left-col .innerContent h2 {
-          color: #FFF; }
+          color: #FFF;
+          margin: 20px 0; }
           @media (max-width: 430px) {
             section#channelMeta .col2-panel .left-col .innerContent h2, section#fullSchedule .col2-panel .left-col .innerContent h2 {
               text-align: center; } }
@@ -8042,7 +8043,8 @@ section {
           width: 100%;
           display: block; } }
       section#channelMeta .col2-panel .left-col .innerContent, section#fullSchedule .col2-panel .left-col .innerContent {
-        padding: 5%; }
+        /*padding: 5%;*/
+        padding: 30px; }
         @media (max-width: 430px) {
           section#channelMeta .col2-panel .left-col .innerContent img, section#fullSchedule .col2-panel .left-col .innerContent img {
             width: 50% !important;
@@ -8057,15 +8059,20 @@ section {
           width: 100%;
           display: block; } }
       section#channelMeta .col2-panel .right-col .innerInfo, section#fullSchedule .col2-panel .right-col .innerInfo {
-        padding: 5%;
+        /*padding: 5%;*/
+        padding: 30px;
         width: 100%;
-        height: 100%; }
+        height: 100%;
+        color: #fff; }
         @media (max-width: 430px) {
           section#channelMeta .col2-panel .right-col .innerInfo, section#fullSchedule .col2-panel .right-col .innerInfo {
             padding: 0px; } }
         section#channelMeta .col2-panel .right-col .innerInfo iframe, section#fullSchedule .col2-panel .right-col .innerInfo iframe {
           width: 100%;
-          height: 170px; }
+          height: 213px; }
+        section#channelMeta .col2-panel .right-col .innerInfo ul, section#fullSchedule .col2-panel .right-col .innerInfo ul {
+          margin: 20px 0;
+          padding: 0 17px; }
 
 section.video-panel .register a {
   text-transform: uppercase; }
