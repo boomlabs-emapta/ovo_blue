@@ -191,7 +191,7 @@
 			
 			
 		.meta {
-			color: $ovo-grey;
+			color: #333333;
 			font-size: 80%;
 			dl {
 				margin: 0;
@@ -486,7 +486,9 @@
 	
 	.card-pagination {
 		position: absolute;
-		left: #{$padding}#{%};
+		/*left: #{$padding}#{%};*/
+		/*right: #{$padding}#{%};*/
+		left: 10px;
 		right: #{$padding}#{%};
 		.more {
 			float:right;

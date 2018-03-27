@@ -70,23 +70,24 @@ section{
 					color: #FFF; 
 					h2{
 						color:#FFF;   
-						margin: 20px 0;
+						margin: 15px 0;
 						@media (max-width: 430px) {
 							text-align: center;
 						}
 					}
 					 .img-box{
 					 	img{
-					 		width: 25%;  
+					 		width: 200px;  
 						 }
 					 }
 						 
 					 .eventAlert{
+
 						float: left;
-						width: 50px;
-						padding: 4px 17px;
+						width: 23px;
+						padding: 4px 11px;
 						text-align: center;
-						font-size: 50px;
+						font-size: 25px;
 						color: #fbfbfb;
 						background: $ovo-orange;
 						border-radius: 41px;
@@ -166,6 +167,7 @@ section{
 				}
 
 				.fullScheduleList{
+					padding: 0px;
 					@media (max-width: 430px) {
 						margin: 0 16px 30px;
 					}
@@ -245,17 +247,25 @@ section{
 					height: 100%;
 					color: #fff;
 
+					.eventDetails{
+						margin: 0px;
+						padding: 0px;
+						li{
+							list-style: none;
+						}
+					}
+
 					@media (max-width: 430px) {
 						padding: 0px;
 					}
 					iframe{
 						width: 100%;
-    					height: 213px;
+    					height: 200px;
 					}
 
 					ul{
 						margin: 20px 0;
-						padding:0 17px;
+						/*padding:0 17px;*/
 					}
 				}
 			}
@@ -274,7 +284,7 @@ section{
 			    position: absolute; 
 			    overflow: hidden;
 			    top: calc((60vw - 160px) /2);
-			    left: calc((100vw - 160px) /2 ); 
+				left: calc((100vw - 160px) /2 );
 			    width: 160px;
 			    height: 90px;
 			    color:#FFF;
@@ -285,9 +295,24 @@ section{
 			    padding: 10px;
 			    border-radius: 8px;
 			    text-transform: uppercase;
-
-			left: calc((100vw - 160px) /2 );
 			    width: 160px;
+			}
+			.eventSched{
+				font-size: 33px;
+			    position: absolute; 
+			    overflow: hidden;
+			    top: calc((60vw - 260px) /2);
+				left: calc((100vw - 260px) /2 );
+			    width: 260px;
+			    height: 90px;
+			    color:#FFF;
+				background: $color-black;
+			    text-align: center;
+			    height: auto; 
+			    padding: 10px;
+			    border-radius: 8px;
+			    text-transform: uppercase;
+
 			}
 		}
 	}

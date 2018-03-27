@@ -501,8 +501,8 @@ section.container{
 			    > time{
 			    	@media (min-width: 720px) {
 				    	width: 120px;
-					    height: 120px;
-					    padding: 0px;
+					    /*height: 120px;*/
+					    padding: 23px 0px;
 					    margin: 0px;
 				   		float: left; 
 					}
@@ -522,7 +522,7 @@ section.container{
 
     				> .day{
     					display: block;
-					    font-size: 56pt;
+					    font-size: 34pt;
 					    font-weight: 100;
 					    line-height: 1;
     				}
@@ -555,15 +555,18 @@ section.container{
 					
 					display: inline-block;
 			    	position: relative;
-				    height: 120px;
+				    /*height: 120px;*/
 				    text-align: left;
-				    padding-right: 40px;
-				    padding-left: 25px;
-
-
+				    /*padding-right: 40px;
+					padding-left: 25px;*/
+					padding: 25px;
 					
 					@media (max-width: 335px) {
 				    	padding-left:15px;
+					}
+
+					h2{
+						margin: 0px;
 					}
 
 				    >ul {
@@ -856,5 +859,71 @@ section.feature-panel{
 }
 
 /* OVERRIDE THEME COLOR */
+
+.blog-pagination {
+    margin-bottom: 4rem;
+	margin-top: 4rem;
+	margin-left: 12px;
+}
+
+.bt:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.blog-pagination > .bt {
+    border-radius: 2rem;
+}
+
+.bt-outline-primary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+	border-color: #007bff !important;
+	background: #552dca;
+    color: #FFF;
+}
+
+a.bt:hover{
+	color: #FFF;
+	opacity: .5;
+}
+
+.bt-outline-secondary {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d !important;
+}
+
+.bt {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a.bt.disabled, fieldset:disabled a.btbtn {
+    pointer-events: none;
+}
+
+.bt-outline-secondary.disabled, .bt-outline-secondary:disabled {
+    color: #6c757d;
+    background-color: transparent;
+}
+
+.bt.disabled, .bt:disabled {
+    opacity: .65;
+}
 
 @import 'imports/lightblue';  
