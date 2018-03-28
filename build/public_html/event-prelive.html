@@ -290,6 +290,7 @@
 				console.log('shower function');
 				$("#content").show();
 				$("#the_link").removeClass("folded").addClass("unfolded");
+				$("#the_link").html('Close Schedule');
 				$(".folded").off('click');
 				hider();
 			});
@@ -301,6 +302,7 @@
 				console.log('hider function');
 				$("#content").hide();
 				$("#the_link").removeClass("unfolded").addClass("folded");
+				$("#the_link").html('See Full Schedule');
 				$(".unfolded").off('click');
 				shower();
 			});

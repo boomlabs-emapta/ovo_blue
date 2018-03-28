@@ -481,14 +481,14 @@
 	
 }
 
-.cards {
+.cards { 
 	position: relative;
 	
 	.card-pagination {
 		position: absolute;
 		/*left: #{$padding}#{%};*/
 		/*right: #{$padding}#{%};*/
-		left: 10px;
+		left: 14px; 
 		right: #{$padding}#{%};
 		.more {
 			float:right;
